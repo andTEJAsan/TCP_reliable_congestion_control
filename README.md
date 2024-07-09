@@ -10,3 +10,5 @@
 * Tweaking the sleep time between sending consecutive requests based on the measured response time i.e (Expontentially Weighted Moving Average) which represents the current state of server responses.
 * Sending requests in bursts and adaptively changing burst size
 * Since the server was dropping packets randomly even when squishing wasn't present, so only going into cautious mode if the measured rate of dropping became higher than a threshold.
+
+![image](https://github.com/andTEJAsan/TCP_reliable_congestion_control/assets/122673067/b20dac35-e2ac-41b4-ab9d-be64ceb14d7d)
